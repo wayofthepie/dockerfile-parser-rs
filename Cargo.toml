@@ -1,0 +1,14 @@
+[package]
+name = "dockerfile-parser-rs"
+version = "0.1.0"
+authors = ["Stephen OBrien <wayofthepie@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+nom = "6.0.0"
+
+[dev-dependencies]
+proptest = "0.10.1"
+const_format = "0.2.9"
